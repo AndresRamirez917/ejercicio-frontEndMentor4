@@ -147,3 +147,11 @@ margin-left: 150px;
     flex-direction: row;
 }
 
+.gallery h1{
+    color: rgba(5, 5, 5, 0.437);
+}
+
+.gallery h3{
+    color: rgba(5, 5, 5, 0.437);
+}
+
