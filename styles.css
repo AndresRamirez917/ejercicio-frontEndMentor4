@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 70px 300px;
+    padding: 50px 0; 
+   width: 75%;
+   margin: 0 auto;
+}
+
+.box{
+     
+    /* width: 400px; */
+	/* display: flex; */
+	/* flex-direction: column;
+	justify-content: center; */
+	/* Ojo: Font-size es 16px */
+	font-size: 16px;
+	
+   
+   
+}
+
+.wrapper{
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(300px, auto);
+    gap: 20px;
+}
+
+
+
+.box-1{
+    padding: 100px; 
+    background: url(/images/rompecabezas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1/3;
+    grid-row: 1;
+
+}
+
+.box-2{
+background-color: rgb(4, 4, 47);
+grid-column: 3/4;
+grid-row: 1/3;
+color: white;
+padding: 20px;
+block-size: fit-content;
+}
+
+.titleNews{
+    color: rgb(248, 177, 11);
+    margin-bottom: 15px;
+}
+
+.separador{
+    border-bottom:solid 1px grey;
+    width:100%;
+    height:50px;
+}
+
+.titleNew2{
+    margin-top: 30px;
+}
+
+.box-3{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.box-4{
+    color: rgba(0, 0, 0, 0.431);
+}
+
+.button{
+    color: white;
+    background-color: brown;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* .box-5{
+    background: url(images/retropc.jpg);
+    width: 30%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* .box-5 h1{
+color: red;
+margin-left: 150px;
+}
+
+.retroPC h1,h2,h3{
+    color: red;
+    margin-left: 150px;
+} */
+
+.gallery{
+    grid-column: 1/4;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 30px;
+}
+
+.retroPC{
+    background: url(/images/retropc.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.keyboardLight{
+    background: url(/images/keyboardlight.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.control{
+    background: url(/images/controller.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30%;
+     width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
